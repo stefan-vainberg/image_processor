@@ -22,6 +22,7 @@
 		F878E94F1895DCCC007DE2A8 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F878E9331895DCCC007DE2A8 /* CoreData.framework */; };
 		F878E9571895DCCC007DE2A8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F878E9551895DCCC007DE2A8 /* InfoPlist.strings */; };
 		F878E9591895DCCC007DE2A8 /* imageProcessorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F878E9581895DCCC007DE2A8 /* imageProcessorTests.m */; };
+		F878E9641895DF32007DE2A8 /* DeviceImagesFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = F878E9631895DF32007DE2A8 /* DeviceImagesFetcher.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		F878E9541895DCCC007DE2A8 /* imageProcessorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "imageProcessorTests-Info.plist"; sourceTree = "<group>"; };
 		F878E9561895DCCC007DE2A8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F878E9581895DCCC007DE2A8 /* imageProcessorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = imageProcessorTests.m; sourceTree = "<group>"; };
+		F878E9621895DF32007DE2A8 /* DeviceImagesFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DeviceImagesFetcher.h; path = ../DeviceImagesFetcher.h; sourceTree = "<group>"; };
+		F878E9631895DF32007DE2A8 /* DeviceImagesFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DeviceImagesFetcher.m; path = ../DeviceImagesFetcher.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,7 @@
 		F878E9351895DCCC007DE2A8 /* imageProcessor */ = {
 			isa = PBXGroup;
 			children = (
+				F878E9651895DF36007DE2A8 /* DeviceImagesFetcher */,
 				F878E93E1895DCCC007DE2A8 /* AppDelegate.h */,
 				F878E93F1895DCCC007DE2A8 /* AppDelegate.m */,
 				F878E9441895DCCC007DE2A8 /* Images.xcassets */,
@@ -151,6 +155,15 @@
 				F878E9551895DCCC007DE2A8 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F878E9651895DF36007DE2A8 /* DeviceImagesFetcher */ = {
+			isa = PBXGroup;
+			children = (
+				F878E9621895DF32007DE2A8 /* DeviceImagesFetcher.h */,
+				F878E9631895DF32007DE2A8 /* DeviceImagesFetcher.m */,
+			);
+			name = DeviceImagesFetcher;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,6 +264,7 @@
 				F878E9431895DCCC007DE2A8 /* imageProcessor.xcdatamodeld in Sources */,
 				F878E9401895DCCC007DE2A8 /* AppDelegate.m in Sources */,
 				F878E93C1895DCCC007DE2A8 /* main.m in Sources */,
+				F878E9641895DF32007DE2A8 /* DeviceImagesFetcher.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
